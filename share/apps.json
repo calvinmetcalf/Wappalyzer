@@ -560,7 +560,7 @@
 		"CouchDB": {
 			"website": "couchdb.apache.org",
 			"cats": [ 22 ],
-			"headers": { "Server": "CouchDB/([\\d.]+)\\;version:\\1" }
+			"headers": { "Server": "CouchDB/([\\d.]+)" }
 		},
 		"cPanel": {
 			"website": "www.cpanel.net",
@@ -1447,6 +1447,12 @@
 			"headers": { "Set-Cookie": "laravel_session" },
 			"implies": "PHP"
 		},
+		"OpenLayers": {
+                        "website": "leafletjs.com",
+                        "cats": [ 35 ],
+                        "script": "leaflet",
+                        "env": "^L"
+                },
 		"LEPTON": {
 			"website": "www.lepton-cms.org",
 			"cats": [ 1 ],
